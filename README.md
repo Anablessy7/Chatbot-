@@ -1,2 +1,92 @@
-# Chatbot-
-Chatbot Script
+{
+  "intens": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hallo",
+        "hai",
+        "halo",
+        "hei",
+        "hai",
+        "hi"
+        "Selamat pagi",
+        "Selamat siang",
+        "Selamat sore",
+        "Good morning",
+        "Good afternoon"
+     ], 
+     "responses":[
+       "Halo! Merdekabot di sini. Selamat datang di Portal Unit Layanan Terpadu, Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi. Bagaimana saya bisa membantu anda?",
+     ]
+   },
+   {
+     "tag": "Merdekabot",
+     "patterns": [
+       "Apa itu Merdekabot?",
+       "Siapa Merdekabot?"
+     ],
+     "responses": [
+     "Merdekabot adalah sistem layanan informasi publik dan pengaduan online rakyat. Kadekbot merupakan kanal pengaduan milik Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi"
+     ]
+   },
+   "tag": "goodbye",
+   "patterns": [
+     "Dah",
+     "Dadah",
+     "Bye",
+     "Good bye",
+     "Selamat tinggal",
+     "Sampai jumpa",
+     "See you",
+     ],
+     "responses": [
+       "Bye!",
+       "Dadah",
+       "Good bye, have a nice day!",
+       "Dah, semoga harimu menyenangkan ya!",
+       "Sampai jumpa lagi!"
+       "Senang bisa membantu"
+     ]
+   },
+   {
+     "tag": "terimakasih",
+     "patterns": [
+       "Terima kasih",
+       "Thanks",
+       "Thank you",
+       "Makasih",
+       "Terima kasih banyak"
+     ],
+     "responses": [
+     "Dengan senang hati membantu ;)",
+     "Sama-sama yaa"
+     ]
+   },
+   {
+     "tag": "persyaratan_laporan",
+     "patterns": [
+       " Apa persyaratan menyampaikan laporan terkait masalah pendidikan?"
+     ],
+     "responses":[ 
+       "Persyaratan dalam menyampaikan laporan dapat menyebutkan: Identitas pelapor yang sah dan masih berlaku di KTP, Tempat dan waktu kejadian pelanggar, Bentuk dan deskripsikan laporan masalah yang terjadi"
+     ]
+   },
+     "tag": "isi_data_diri"
+     "patterns": [
+       "Yuventa Katarina"
+     ],
+     "responses": [
+       "Tempat dan waktu kejadian pelapor"
+     ],
+     "patterns": [
+       "Desa Nuamulu, Wolojita, Nuamuli, Kabupaten Ende, Nusa Tenggara Timur" 
+     ],
+     "responses": [
+       "Bisakah anda memberitahu kami tentang masalah yang anda hadapi?"
+     ]
+     "patterns" : [
+       "SD Katolik Wololanu mengalami minimnya faktor sarana dan prasarana sekolah. Hal ini terbukti dengan keadaan gedung sekolah, ketiadaan fasilitas pendukung, tidak ada jaringan internet di sekolah, tidak adanya akses jalan dan transportasi sehingga puluhan pelajar terpaksa berjalan kaki puluhan meter menuju sekolah"
+    ], 
+    "responses": [
+      "Terima kasih karena telah menyampaikan hal ini. Namun, saya perlu memeriksa dengan tim saya untuk memberitahu anda tentang hal ini lebih lanjut. Mohon menunggu tim kami akan menghubungi anda"
+       
